@@ -1,0 +1,157 @@
+nav.navbar.navbar-expand-lg.navbar-dark {}
+
+header.p-3.pb-3.border-bottom {}
+
+span {
+    font-weight: 800;
+}
+
+a#logoLink {
+    font-size: 29px;
+    color: white;
+    text-decoration: none;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 68%;
+}
+
+.justify-content-center {
+    justify-content: flex-start;
+}
+
+/* second step */
+
+.flex-lg-row-reverse.align-items-center.py-5 {}
+
+/* .col-lg-6 {
+    padding-top: 192px;
+} */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.social_section_1info li {
+    display: inline-block;
+}
+
+ul.social_section_1info a {
+    margin-right: 4px;
+    width: 40px;
+    height: 40px;
+    display: block;
+
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.mainmain {
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/23-03-2019/client-demo_Free/2146656123/web/images/banner.jpg");
+    background-color: #d91414;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+/* about me */
+a.abt-btn {
+    background: #2a5298;
+    border: 2px solid #2a5298;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 2em;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* my service */
+
+.my_service{
+    color: #2a5298;
+}
+
+/* designer */
+
+
+.designer {
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/23-03-2019/client-demo_Free/2146656123/web/images/banner.jpg");
+    
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Portfolio */
+
+
+/* 
+.box9 {
+    background: #fff;
+    text-align: center;
+    position: relative;
+    padding: 2px;
+}
+
+
+.box9 .title {
+    color: #fff;
+    line-height: 17px;
+    margin: 5px 0;
+    position: absolute;
+    bottom: 55%;
+}
+.box9 .icon {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+}
+.box9 img {
+    width: 100%;
+    height: auto;
+} */
+.containernnnn {
+    position: absolute;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    top: 3312px;
+}
+.overlayyyyy{
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background:black;
+    cursor: pointer;
+}
+.box-content-overrrr{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    color:white;
+    text-align: center;
+}
+
+.containernnnn:hover .overlayyyyy{
+    opacity: 0.8;
+}
